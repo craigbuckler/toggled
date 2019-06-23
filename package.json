@@ -1,0 +1,33 @@
+{
+  "name": "toggled.js",
+  "version": "1.0.0",
+  "description": "adds or removes body classes when something is clicked and retains state",
+  "browser": "dist/toggled.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "npm i && gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig Buckler",
+  "homepage": "https://github.com/craigbuckler/toggled.js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbuckler/toggled.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/craigbuckler/toggled.js/issues"
+  },
+  "keywords": [
+    "JavaScript",
+    "CSS",
+    "class",
+    "toggle"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-terser": "^1.2.0"
+  }
+}

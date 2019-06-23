@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>toggled.js demonstration</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="src/demo.css">
+</head>
+<body>
+
+<main>
+
+  <article>
+
+    <h1>toggled.js</h1>
+
+    <p><a href="https://github.com/craigbuckler/toggled.js"><strong>GitHub</strong></a> | <a href="https://www.npmjs.com/package/toggled.js"><strong>npm</strong></a> | <a href="https://gum.co/toggledjs"><strong>donate</strong></a> | <a href="https://twitter.com/craigbuckler">@craigbuckler</a> | <a href="https://craigbuckler.com/">craigbuckler.com</a></p>
+
+    <p>Toggles a class to the HTML <code>body</code> when an element is clicked.</p>
+
+    <p>Please use the code as you wish. <a href="https://twitter.com/craigbuckler">Tweet me @craigbuckler</a> if you find it useful and <a href="https://gum.co/toggledjs">donate toward development</a> if you use it commercially.</p>
+
+    <ul>
+      <li>easily add a toggle switch to any HTML element</li>
+      <li>state is remembered between page loads</li>
+      <li>works in all modern browsers</li>
+      <li>no external dependencies - works with any framework</li>
+      <li>fast and lightweight: 630 bytes of JavaScript</li>
+    </ul>
+
+    <h2>Usage</h2>
+
+    <p>The page must load the JavaScript. It can be placed anywhere but, typically, it is loaded just before the closing <code>&lt;/body&gt;</code> tag:</p>
+
+    <pre><code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/toggled.js/dist/toggled.js&quot;&gt;&lt;/script&gt;</code></pre>
+
+    <p>The CDN URL is shown above but you can also <code>npm i toggled.js</code> to install via npm and use a bundler.</p>
+
+    <p>Add a <code>data-toggled="NAME"</code> attribute to any HTML element. When that element is clicked, the NAME class is added to or removed from the HTML body.</p>
+
+    <pre><code>&lt;button data-toggled=&quot;buttonsize&quot;&gt;CLICK ME&lt;/button&gt;</code></pre>
+
+    <button data-toggled="buttonsize">CLICK ME</button>
+
+    <p>When the button is clicked for the first time, a <code>buttonsize</code> class is added to the HTML body. CSS or JavaScript can respond to the change, e.g. change the font size:</p>
+
+    <pre><code>.buttonsize button {&#10;  font-size: 2em;&#10;}</code></pre>
+
+    <p>The class is removed when the button is clicked for a second time and the state is retained between page loads.</p>
+
+    <p>Any element can be used as a toggle and any number of space-separated classes can be defined, e.g. <code>data-toggled="NAME1 NAME2 NAME3"</code>.</p>
+
+  </article>
+
+</main>
+
+<script src="src/js/toggled.js"></script>
+</body>
+</html>
