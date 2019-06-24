@@ -69,3 +69,11 @@ button {
 .buttonsize button {
   font-size: 2em;
 }
+
+.li1 .li1,
+.li2 .li2,
+.li3 .li3,
+.li4 .li4,
+.li5 .li5 {
+  font-weight: bold;
+}

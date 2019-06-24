@@ -21,12 +21,14 @@
     <p>Please use the code as you wish. <a href="https://twitter.com/craigbuckler">Tweet me @craigbuckler</a> if you find it useful and <a href="https://gum.co/toggledjs">donate toward development</a> if you use it commercially.</p>
 
     <ul>
-      <li>easily add a toggle switch to any HTML element</li>
-      <li>state is remembered between page loads</li>
-      <li>works in all modern browsers</li>
-      <li>no external dependencies - works with any framework</li>
-      <li>fast and lightweight: 630 bytes of JavaScript</li>
+      <li class="li1" data-toggled="">easily add a toggle switch to any HTML element</li>
+      <li class="li2" data-toggled="">state is remembered between page loads</li>
+      <li class="li3" data-toggled="">works in all modern browsers</li>
+      <li class="li4" data-toggled="">no external dependencies - works with any framework</li>
+      <li class="li5" data-toggled="">fast and lightweight: 630 bytes of JavaScript</li>
     </ul>
+
+    <p><em>(click any list item to toggle font weight)</em></p>
 
     <h2>Usage</h2>
 
@@ -48,7 +50,15 @@
 
     <p>The class is removed when the button is clicked for a second time and the state is retained between page loads.</p>
 
-    <p>Any element can be used as a toggle and any number of space-separated classes can be defined, e.g. <code>data-toggled="NAME1 NAME2 NAME3"</code>.</p>
+    <p>Advanced options:</p>
+
+    <ul>
+      <li>Any clickable element can be used as a toggle.</li>
+
+      <li>Any number of space-separated classes can be defined, e.g. <code>data-toggled="NAME1 NAME2 NAME3"</code>.</li>
+
+      <li>Set <code>data-toggled=""</code> to apply the element's classes, e.g. when <code>&lt;button class=&quot;one two&quot; data-toggled=&quot;&quot;&gt;button&lt;/button&gt;</code> is clicked, the classes <code>one</code> and <code>two</code> are toggled on the HTML body.</li>
+    </ul>
 
   </article>
 

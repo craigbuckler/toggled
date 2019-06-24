@@ -1,6 +1,6 @@
 {
   "name": "toggled.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "adds or removes body classes when something is clicked and retains state",
   "browser": "dist/toggled.js",
   "files": [

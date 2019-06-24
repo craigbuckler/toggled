@@ -39,10 +39,19 @@ When the button is clicked for the first time, a `buttonsize` class is added to 
 
 The class is removed when the button is clicked for a second time and the state is retained between page loads.
 
-Any element can be used as a toggle and any number of space-separated classes can be defined, e.g. `data-toggled="NAME1 NAME2 NAME3"`.
+Advanced options:
+
+* Any clickable element can be used as a toggle.
+* Any number of space-separated classes can be defined, e.g. `data-toggled="NAME1 NAME2 NAME3"`.
+* Set `data-toggled=""` to apply the element's classes, e.g. when `<button class="one two" data-toggled="">button</button>` is clicked, the classes `one` and `two` are toggled on the HTML body.
 
 
 ## Version history
+
+### v1.1.0, 24 June 2019
+
+* `data-toggled=""` option to apply element's classes to the body
+* simpler and faster processing
 
 ### v1.0.0, 23 June 2019
 
