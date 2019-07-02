@@ -48,6 +48,10 @@ Advanced options:
 
 ## Version history
 
+### v1.1.1, 2 July 2019
+
+* fixed bug which stored null
+
 ### v1.1.0, 24 June 2019
 
 * `data-toggled=""` option to apply element's classes to the body

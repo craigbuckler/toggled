@@ -31,7 +31,7 @@ Use data-toggled="" to toggle the element's classes on the body.
     try {
 
       // get local storage
-      store = localStorage.getItem(name);
+      store = localStorage.getItem(name) || '';
 
       // add stored items
       b.className += store;
